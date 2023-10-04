@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'java-azure-with-mysql-104'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0CD909A6442F47D2AE3A173824D137F6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D03C82729B2245E2934F62B81CBBFF64 }}
           package: '*.jar'
